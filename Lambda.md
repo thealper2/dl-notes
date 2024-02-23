@@ -1,0 +1,1 @@
+Kullanıcı tarafından özelleştirilebilir bir işlevi alır ve bu işlevi modelde bir katman olarak kullanır. 

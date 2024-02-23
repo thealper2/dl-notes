@@ -1,0 +1,1 @@
+Giriş verilini hem ileri hem de geri yönde işleyen iki ayrı sarmal katmanı içerir ve bunların çıktılarını birleştirir. Bu sayede, giriş verilerinin her iki yönden de işlenmesini ve modelin daha iyi öğrenme performansını elde etmesini sağlanır. 

@@ -1,0 +1,1 @@
+RNN hafızaya yapısına sahip bir yapıdır. Girdiler birbirleri ile ilişkilidir. Uzun girdileri işlemekte zorlanır, başarılı sonuçlar veremeyebilir. Kaybolan gradyanlar ve patlayan gradyanlar sorununa sahiptir.
