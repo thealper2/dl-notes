@@ -1,0 +1,1 @@
+Giriş verilerini tek boyutlu bir vektöre dönüştürür. Convolution ve Pooling katmanlarından gelen matrisleri tek boyutlu diziye çevirir. Böylece veriyi tam bağımlı katmana hazırlar.
