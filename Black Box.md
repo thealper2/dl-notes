@@ -1,0 +1,1 @@
+İç çalışma mekanizmaları tam olarak anlaşılamayan veya açıkça tanımlanamayan karmaşık modellerdir. Girdi ve çıktı arasındaki ilişkiyi öğrenirken, içerisindeki karar süreçleri insan tarafından yorumlanamayan bir şekilde gerçekleştirirler. İç çalışma mekanizmaları anlaşılmazı zor olduğu için modelin kararlarına güvenmek zor olabilir. Açıklanabilirlikleri düşüktür. 
