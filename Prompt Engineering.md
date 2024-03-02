@@ -1,0 +1,22 @@
+Prompt, "istemde bulunmak" anlamına gelir. Belirli bir amaç için bir dil modeline gönderilen komut dizisini ifade eder. Prompt Engineering, Dil modelini belirli bir görev için optimize ederken özel bir komut dizisi kullanma sürecidir.
+
+# Teknikler
+1. **Role Prompting:** Belirli bir rol veya işlevi yerine getirmesi için yönlendirmek için kullanılan bir tekniktir. Modelin belirli bir görevi yerine getirirken belirli bir rolü veya karakteri taklit etmesini sağlar. Çözülmek istenen problem için bir rol veya gerçek veya kurgusal bir karakter tanımlayın. Çözülmek istenen problem ile ilgili bir senaryo kurun. Modelin rolünü tarif edin.
+2. **Few Shot Prompting:** Modelin daha önceden verilmemiş veya belirli bir görev için eğitilmemiş metinleri hızlı bir şekilde öğrenmesini sağlamak için kullanılan bir tekniktir. Modelin sınırlı sayıda örnekten öğrenme yeteneğini kullanarak yeni görevleri hızla öğrenmesini sağlar. Verilen örnekler görev ile alakalı olmalıdır. Genelde 2-10 arasında örnek verilir.
+3. **Chain-of-Thought Prompting:** Modelin bir metindeki fikirleri veya düşünceleri izleyerek o metindeki bağlamsal akışı anlamasını sağlamak için kullanılan bir tekniktir. 
+4. **Zero Shot Prompting:** Modelin daha önceden verilmemiş bir konuyu ele almasını sağlamak için kullanılan bir tekniktir. Modelin konunun doğası hakkında önceden bir eğitim almadan yeni konulara hızlı bir şekilde uyum sağlamasını sağlar.
+5. **Least to Most Prompting:** Modelin başlangıçta daha az karmaşık veya genel promptlarla eğitilerek, daha sonra karmaşık veya özel promptlar ile eğitilmesini sağlayan bir tekniktir. Bu teknik, modelin temel yeteneklerini geliştirmek için basit promptlarla başlayarak, daha sonra daha karmaşık veya spesifik görevler için eğitilmesini sağlar.
+6. **Dual Prompting:** İki veya daha fazla promptu birleştirerek kullanılan bir tekniktir. 
+7. **Self-Consistency:** Modelin verilen bir görev doğrultusunda ürettiği çıktıların tutarlı olmasını sağlamak için kullanılan bir tekniktir. Modelin ürettiği metinlerin içerik ve mantık açısından tutarlı olmasını sağlayarak daha kaliteli sonuçlar elde etmeyi amaçlar.
+8. **Generated Knowledge Prompting:** Modelin daha geniş bir bilgi havuzundan yararlanarak daha kaliteli ve çeşitli çıktılar üretmesini sağlamak için kullanılan bir  tekniktir. Bu teknik, modelin daha önce öğrenilmiş bilgileri kullanarak yeni ve çeşitli çıktılar oluşturmasını sağlar.
+9. **Tree of Thoughts:** Modelin bir metindeki fikirleri, konuları ve alt konuları takip ederek derinlemesine anlamasını sağlamak için kullanılan bir tekniktir. Bu teknik, modelin bir metindeki fikirler arasındaki ilişkileri ve hiyerarşiyi anlamasına yardımcı olur.
+10. **Intentional Summarization:** Modelin bir metni özetlemesi için belirli bir amaca yönelik olarak yönlendirilmesini sağlayan bir tekniktir. Bu teknik, modelin bir metni belirli bir amaca göre özetlemesini sağlar ve özgünlüğünü korur.
+11. **Extractive Summarization:** Modelin bir metni özetlemesi için metinden doğrudan alıntılar yapmasını sağlayan bir tekniktir. Bu teknik, modelin metindeki önemli cümleleri veya paragrafları belirleyerek özet oluşturmasını sağlar.
+12. **Sentiment Analysis:** Metinden duygu analizi yapmasını sağlar.
+13. **Entity and Keyword Detection:** Metinden öğe çıkarımı yapmasını sağlar.
+14. **Inferring Specifications:** Unsur belirleme.
+15. **Intent Detection:** Niyet tespiti.
+
+# Prompt Güvenliği
+1. **Constitutional Prompting:** Modelin belirli bir konu veya metin türüne uygun olarak anlamlı ve uygun çıktılar üretmesi için önceden tanımlanmış bir kurallar kümesi veya çerçeve kullanma yaklaşımıdır. Bu teknik, modelin verilen görevi yerine getirirken belirli kuralları takip etmesini sağlar ve istenmeyen çıktıları önlemeye yardımcı olur.
+2. **Prompt Jailbreaking:** Modellerin daha geniş bir kullanım alanına sahip olması için geleneksel sınırlamaları aşmak veya kısıtlamaları ortadan kaldırmak için kullanılan bir terimdir. Genellikle, yapay zeka modelleri belirli bir amaca yönelik olarak eğitilir ve belirli bir kullanım durumu veya görev için optimize edilirler. Ancak, bazı durumlarda bu sınırlamalar kullanıcıların veya araştırmacıların istedikleri sonuçları elde etmelerini engelleyebilir veya kısıtlayabilir. Bu nedenle, "prompt jailbreaking" terimi, bu sınırlamaları aşmak veya modelin daha geniş bir kullanım alanına sahip olmasını sağlamak için kullanılan stratejileri ifade etmek için kullanılır.
