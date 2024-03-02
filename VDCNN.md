@@ -1,0 +1,1 @@
+Very Deep CNN, 29 katmandan oluşur. CNN'den temel farkı, daha fazla katmana sahip olmasıdır. Bu sayede daha karmaşık desenleri ve yüksek seviyeli özellikleri öğrenebilir. 

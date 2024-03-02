@@ -1,0 +1,1 @@
+Karakter tabanlı bir CNN'dir. Dilin anlamsal veya sözdizimsel yapısına güvenmeden metni sınıflandırabilirler. Kelimelerin anlamsal ilişkilerini daha iyi temsil eder.

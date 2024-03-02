@@ -1,0 +1,7 @@
+BERT (Bidirectional Encoder Representations from Transformers), 2018 yılında Google tarafından geliştirilmiştir. BERT Base modeli 12 katmana, 786 hidden, 12 self-attention head ve 110M parametreye sahiptir. BERT Large modeli 24 katmana, 1024 hidden, 16 self-attention head ve 340M parametreye sahiptir. "Uncased" modeller hepsi "lower" yani küçük harf metinler ile eğitilmiştir. "Cased" modeller "büyük-küçük" harf korunarak eğitilmiştir. Cümleleri hem soldan sağa hem de sağdan sola olmak üzere çift yönlü olarak değerlendirir. Bu sayede kelimelerin birbirleriyle olan ilişkilerini daha iyi öğreniyor. BERT'in eğitimi için "Masked Language Model (MLM)" ve "Next Sentence Prediction (NSP)" olmak üzere 2 teknik kullanılır.
+
+# Masked Language Model (MLM)
+MLM'de, metin içinden %15'lık kısım rastgele maskelenir. Seçilen kelimelerin %80'i \[MASK\] tokeni ile, %10'u rastgele kelimeler ile kalan %10 ise değiştirilmeden bırakılıyor. Model maskelenmiş kelimeleri doğru şekilde tahmin etmeye çalışır. Bu, modelin kelimelerin anlamsal ilişkilerini öğrenmesini sağlar. 
+
+# Next Sentence Prediction (NSP)
+Model rastgele seçilen 2 cümlenin ardışık olup olmadığını tahmin etmeye çalışır. İkili olarak gelen cümlelerin %50'sinin ikinci cümlesi rastgele değiştirilir. İkili olarak verilen cümlenin ikinci cümlenin ilk cümlenin devamı olup olmadığı tahmin edilir. Bu, metinler arasındaki mantıksal akışı ve bağlantıları anlamasını sağlar. 
